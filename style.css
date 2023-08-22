@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffcc19;
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+.register {
+  margin: 50px 0;
+}
+.txt-center {
+  text-align: center;
+}
+.main-register img {
+  width: 265px;
+  height: 265px;
+}
+.main-register {
+  display: flex;
+}
+
+.main-register > form {
+  width: 50%;
+}
+.main-register > div {
+  width: 25%;
+}
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+  gap: 4px;
+}
+
+form input {
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 0 10px;
+  min-height: 40px;
+}
+
+.register h1 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 60px;
+  width: 50%;
+  margin: 0 auto;
+}
+.register p {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.register-button {
+  text-align: center;
+  margin-top: 10px;
+}
+.register-button button {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: #26282d;
+  color: #ffcc19;
+  border-color: #26282d;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s all;
+  transform: translateY(0);
+  border: none;
+}
+.register-button button:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-10px);
+}
+
+form label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
